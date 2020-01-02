@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ /* background: navy !important; */
 }
 
 .App-logo {
@@ -7,16 +8,76 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*background-color: #053b1e;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(228, 21, 21);
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+/*body {background-color: #323b36; }
+.Fragment { background-color: navy ;}*/
+
+table {margin-top: 20px;}
+th {background-color: rgb(228, 21, 21); }
+
+.earth-logo {
+  width: 4vmin;
+  height: 4vmin;
+}
+
+.table td.fit, 
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+
+.thumbnail  {
+  width: 15px;
+  margin:0px;
+  padding:0px;
+}
+
+.Naughty {background-color: #800c0c; }
+.Naughty:hover {background-color: #800c0c; }
+
+.Nice {background-color: #0a7521; }
+.Nice:hover {background-color: #0a7521; }
+
+.welcome {
+  color: #918d8d;
+  margin-top: 7px;
+}
+.welcome:hover{
+  cursor: default;
+}
+
+.titleLog
+{
+  margin:30px;
+}
+
+.buttonLog
+{
+  margin:5px;
+}
+
+.unsuccessfull {
+  color: #d31919;
+  margin-top: 5px;
+}
+
+
+.santaList
+{
+  margin-left:100px;
+  margin-right:100px;
 }
